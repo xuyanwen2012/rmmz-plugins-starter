@@ -1,8 +1,11 @@
+const globals = require('./rmmz_globals');
+
 module.exports = {
   extends: [
     'eslint:recommended',
     'google',
   ],
+  globals,
   env: {
     browser: true,
     node: true,

@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   // this is an example plugin
@@ -20,4 +20,5 @@
       // instance.show();
     }
   };
+
 }());
