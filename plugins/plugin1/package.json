@@ -2,15 +2,16 @@
   "name": "plugin1",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "author": "",
   "main": "dist/Plugin1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "pnpm run lint:js",
+    "build": "rollup -c",
+    "lint": "pnpm run lint:package && pnpm run lint:js",
     "lint:js": "eslint --fix --cache src --ext .js",
-    "build": "rollup -c"
+    "lint:package": "prettier --write package.json --plugin=prettier-plugin-package",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "rollup": "^2.26.5"
   }

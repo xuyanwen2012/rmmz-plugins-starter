@@ -4,14 +4,16 @@ importers:
       eslint: 7.7.0
       eslint-config-google: 0.14.0_eslint@7.7.0
       eslint-config-prettier: 6.11.0_eslint@7.7.0
-      eslint-plugin-prettier: 3.1.4_eslint@7.7.0+prettier@2.0.5
-      prettier: 2.0.5
+      eslint-plugin-prettier: 3.1.4_eslint@7.7.0+prettier@2.1.0
+      prettier: 2.1.0
+      prettier-plugin-package: 1.0.0_prettier@2.1.0
     specifiers:
       eslint: ^7.7.0
       eslint-config-google: ^0.14.0
       eslint-config-prettier: ^6.11.0
       eslint-plugin-prettier: ^3.1.4
-      prettier: ^2.0.5
+      prettier: ^2.1.0
+      prettier-plugin-package: ^1.0.0
   plugins/plugin1:
     devDependencies:
       rollup: 2.26.5
@@ -240,10 +242,10 @@ packages:
       eslint: '>=3.14.1'
     resolution:
       integrity: sha512-oB8cpLWSAjOVFEJhhyMZh6NOEOtBVziaqdDQ86+qhDHFbZXoRTM7pNSvFRfW/W/L/LrQ38C99J5CGuRBBzBsdA==
-  /eslint-plugin-prettier/3.1.4_eslint@7.7.0+prettier@2.0.5:
+  /eslint-plugin-prettier/3.1.4_eslint@7.7.0+prettier@2.1.0:
     dependencies:
       eslint: 7.7.0
-      prettier: 2.0.5
+      prettier: 2.1.0
       prettier-linter-helpers: 1.0.0
     dev: true
     engines:
@@ -638,13 +640,23 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
-  /prettier/2.0.5:
+  /prettier-plugin-package/1.0.0_prettier@2.1.0:
+    dependencies:
+      prettier: 2.1.0
+    dev: true
+    engines:
+      node: '>= 8.0.0'
+    peerDependencies:
+      prettier: ^2.0.0
+    resolution:
+      integrity: sha512-flbKuLB7ftrW2zQYJjb0mF6zY7R0jDrYatpr0BBNj04Eb+g1RLbquOQSJE1LffDZfzU03fwJQ74grqQjQjYa3Q==
+  /prettier/2.1.0:
     dev: true
     engines:
       node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
+      integrity: sha512-lz28cCbA1cDFHVuY8vvj6QuqOwIpyIfPUYkSl8AZ/vxH8qBXMMjE2knfLHCrZCmUsK/H1bg1P0tOo0dJkTJHvw==
   /progress/2.0.3:
     dev: true
     engines:
