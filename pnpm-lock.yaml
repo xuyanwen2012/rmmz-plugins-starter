@@ -1,9 +1,22 @@
-devDependencies:
-  eslint: 7.7.0
-  eslint-config-google: 0.14.0_eslint@7.7.0
-  eslint-config-prettier: 6.11.0_eslint@7.7.0
-  eslint-plugin-prettier: 3.1.4_eslint@7.7.0+prettier@2.0.5
-  prettier: 2.0.5
+importers:
+  .:
+    devDependencies:
+      eslint: 7.7.0
+      eslint-config-google: 0.14.0_eslint@7.7.0
+      eslint-config-prettier: 6.11.0_eslint@7.7.0
+      eslint-plugin-prettier: 3.1.4_eslint@7.7.0+prettier@2.0.5
+      prettier: 2.0.5
+    specifiers:
+      eslint: ^7.7.0
+      eslint-config-google: ^0.14.0
+      eslint-config-prettier: ^6.11.0
+      eslint-plugin-prettier: ^3.1.4
+      prettier: ^2.0.5
+  plugins/plugin1:
+    devDependencies:
+      rollup: 2.26.5
+    specifiers:
+      rollup: ^2.26.5
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -400,6 +413,15 @@ packages:
     dev: true
     resolution:
       integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+  /fsevents/2.1.3:
+    dev: true
+    engines:
+      node: ^8.16.0 || ^10.6.0 || >=11.0.0
+    optional: true
+    os:
+      - darwin
+    resolution:
+      integrity: sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==
   /functional-red-black-tree/1.0.1:
     dev: true
     resolution:
@@ -654,6 +676,15 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
+  /rollup/2.26.5:
+    dev: true
+    engines:
+      node: '>=10.0.0'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.1.3
+    resolution:
+      integrity: sha512-rCyFG3ZtQdnn9YwfuAVH0l/Om34BdO5lwCA0W6Hq+bNB21dVEBbCRxhaHOmu1G7OBFDWytbzAC104u7rxHwGjA==
   /semver/7.3.2:
     dev: true
     engines:
@@ -803,9 +834,3 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
-specifiers:
-  eslint: ^7.7.0
-  eslint-config-google: ^0.14.0
-  eslint-config-prettier: ^6.11.0
-  eslint-plugin-prettier: ^3.1.4
-  prettier: ^2.0.5

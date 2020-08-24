@@ -16,5 +16,7 @@ module.exports = {
   ],
   rules: {
     // Additional, per-project rules...
+    'require-jsdoc': 'warn',
+    'camelcase': 'off',
   },
 };
