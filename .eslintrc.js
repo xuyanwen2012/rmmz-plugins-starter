@@ -17,10 +17,14 @@ module.exports = {
   plugins: [
     'prettier',
   ],
+  ignorePatterns: [
+    '**/dist/*.js',
+  ],
   rules: {
     'require-jsdoc': 'warn',
     // Turned off because RMMZ codebase does not follow this rule.
     // (e.g. Scene_Map)
     'camelcase': 'off',
+    'no-unused-vars': 'warn',
   },
 };

@@ -1,23 +1,29 @@
+/*:
+ * @target MZ
+ * @plugindesc A plugin description
+ * @author Ivan Xu
+ *
+ * @help Plugin1.js - v1.0.0
+ *
+ * This plugin can be used for 'Mount & Blade' style battle log or simply for
+ * quick debugging display.
+ */
 (function () {
   'use strict';
 
   // this is an example plugin
 
-  // eslint-disable-next-line no-undef
   Scene_Map = class extends Scene_Map {
     start(...args) {
       super.start(args);
-      // instance.show();
     }
 
     update(...args) {
       super.update(args);
-      // instance.update();
     }
 
     stop(...args) {
       super.stop(args);
-      // instance.show();
     }
   };
 
