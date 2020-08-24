@@ -18,8 +18,9 @@ module.exports = {
     'prettier',
   ],
   rules: {
-    // Additional, per-project rules...
     'require-jsdoc': 'warn',
+    // Turned off because RMMZ codebase does not follow this rule.
+    // (e.g. Scene_Map)
     'camelcase': 'off',
   },
 };

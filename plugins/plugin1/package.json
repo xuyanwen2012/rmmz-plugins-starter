@@ -1,9 +1,9 @@
 {
   "name": "plugin1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A plugin description",
   "license": "MIT",
-  "author": "",
+  "author": "Ivan Xu",
   "main": "dist/Plugin1.js",
   "scripts": {
     "build": "rollup -c",

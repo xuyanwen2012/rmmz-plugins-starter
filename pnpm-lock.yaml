@@ -3,15 +3,15 @@ importers:
     devDependencies:
       eslint: 7.7.0
       eslint-config-google: 0.14.0_eslint@7.7.0
-      eslint-config-prettier: 6.11.0_eslint@7.7.0
       eslint-plugin-prettier: 3.1.4_eslint@7.7.0+prettier@2.1.0
+      pnpm: 5.5.3
       prettier: 2.1.0
       prettier-plugin-package: 1.0.0_prettier@2.1.0
     specifiers:
       eslint: ^7.7.0
       eslint-config-google: ^0.14.0
-      eslint-config-prettier: ^6.11.0
       eslint-plugin-prettier: ^3.1.4
+      pnpm: ^5.5.3
       prettier: ^2.1.0
       prettier-plugin-package: ^1.0.0
   plugins/plugin1:
@@ -232,16 +232,6 @@ packages:
       eslint: '>=5.16.0'
     resolution:
       integrity: sha512-WsbX4WbjuMvTdeVL6+J3rK1RGhCTqjsFjX7UMSMgZiyxxaNLkoJENbrGExzERFeoTpGw3F3FypTiWAP9ZXzkEw==
-  /eslint-config-prettier/6.11.0_eslint@7.7.0:
-    dependencies:
-      eslint: 7.7.0
-      get-stdin: 6.0.0
-    dev: true
-    hasBin: true
-    peerDependencies:
-      eslint: '>=3.14.1'
-    resolution:
-      integrity: sha512-oB8cpLWSAjOVFEJhhyMZh6NOEOtBVziaqdDQ86+qhDHFbZXoRTM7pNSvFRfW/W/L/LrQ38C99J5CGuRBBzBsdA==
   /eslint-plugin-prettier/3.1.4_eslint@7.7.0+prettier@2.1.0:
     dependencies:
       eslint: 7.7.0
@@ -428,12 +418,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
-  /get-stdin/6.0.0:
-    dev: true
-    engines:
-      node: '>=4'
-    resolution:
-      integrity: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
   /glob-parent/5.1.1:
     dependencies:
       is-glob: 4.0.1
@@ -626,6 +610,13 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
+  /pnpm/5.5.3:
+    dev: true
+    engines:
+      node: '>=10.13'
+    hasBin: true
+    resolution:
+      integrity: sha512-1FfqqDOaQKIn10WzP2Vdjwo4KOpdu7s2dRbBMDJi9llHa5BhhHf+ASrW8HTWyqKd03n6wf2NrbFvZreHJKQnZw==
   /prelude-ls/1.2.1:
     dev: true
     engines:
