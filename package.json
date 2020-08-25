@@ -6,7 +6,7 @@
     "lint": "gts check ./plugins/Plugin1/src/**/*"
   },
   "devDependencies": {
-    "@types/node": "^13.11.1",
+    "@types/node": "^14.6.0",
     "gts": "^2.0.2",
     "pnpm": "^5.5.3",
     "tslib": "^2.0.1",
