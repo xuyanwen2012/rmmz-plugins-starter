@@ -4,7 +4,7 @@
   "author": "Ivan Xu",
   "license": "MIT",
   "description": "This is the description of the plugin",
-  "main": "dist/Plugin1.js",
+  "main": "../../dist/Plugin1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
