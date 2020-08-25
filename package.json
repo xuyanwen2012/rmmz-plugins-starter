@@ -2,7 +2,8 @@
   "name": "rmmz-plugins-starter",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts check ./plugins/Plugin1/src/**/*"
   },
   "devDependencies": {
     "@types/node": "^13.11.1",
