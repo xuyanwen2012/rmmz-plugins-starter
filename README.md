@@ -1,12 +1,15 @@
 # rmmz-plugins-starter
+> RPG Maker MV/MZ plugin development starter
+
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
 This repository is a Monorepo that allows easy development of for RPG Maker MV/MZ plugins.
 It serves as a starting point for plugin developer who loves to write RM plugins in ES6 and modules,
 especially useful for developer who produce many plugins.
 
-- The template uses [Rollup.js](https://github.com/rollup/rollup) as the module bundler.
-- The template uses [pnpm](https://github.com/pnpm/pnpm) to save space on your disk.
-- The template follows the [Google style guide](https://google.github.io/styleguide/jsguide.html).
+- :white_check_mark: The template uses [Rollup.js](https://github.com/rollup/rollup) as the module bundler.
+- :white_check_mark: The template uses [pnpm](https://github.com/pnpm/pnpm) to save space on your disk.
+- :white_check_mark: The template follows the [Google style guide](https://google.github.io/styleguide/jsguide.html).
 
 We are hoping to intergrate this setup with TypeScript soon.
 
@@ -40,7 +43,8 @@ plugins
 
 We recomment using [pnpm](https://github.com/pnpm/pnpm) since this is a Monorepo.
 Alternately you can still use `npm`, which then involves extra manual work.
-Just use pnpm in place of npm/Yarn. E.g., install dependencies via:
+Once `pnpm` is installed, just use pnpm in place of npm/Yarn. 
+E.g., install dependencies via:
 
 ```
 pnpm install
