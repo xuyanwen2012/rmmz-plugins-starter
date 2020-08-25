@@ -1,3 +1,7 @@
+/**
+ * @param {any} pkg
+ * @return {any}
+ */
 function pluginBanner(pkg) {
   const banner_head = `/*:
  * @target MZ
@@ -29,7 +33,10 @@ function pluginBanner(pkg) {
   };
 }
 
-
+/**
+ * @param {any} pkg
+ * @return {any}
+ */
 export function createConfig(pkg) {
   return {
     input: 'src/index.js',

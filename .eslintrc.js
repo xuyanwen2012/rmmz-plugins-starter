@@ -1,11 +1,14 @@
-const globals = require('./rmmz_globals');
+/**
+ * @type {string[]}
+ */
+const globals = require('./rmmz_globals.json');
 
 module.exports = {
   extends: [
     'eslint:recommended',
     'google',
   ],
-  globals,
+  globals: Object.fromEntries(globals.map((key) => [key, 'writable'])),
   env: {
     browser: true,
     node: true,
