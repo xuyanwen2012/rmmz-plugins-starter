@@ -1,4 +1,5 @@
 # rmmz-plugins-starter
+
 > RPG Maker MV/MZ plugin development starter
 
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
@@ -43,7 +44,7 @@ plugins
 
 We recomment using [pnpm](https://github.com/pnpm/pnpm) since this is a Monorepo.
 Alternately you can still use `npm`, which then involves extra manual work.
-Once `pnpm` is installed, just use pnpm in place of npm/Yarn. 
+Once `pnpm` is installed, just use pnpm in place of npm/Yarn.
 E.g., install dependencies via:
 
 ```
