@@ -28,6 +28,8 @@ module.exports = {
     // Turned off because RMMZ codebase does not follow this rule.
     // (e.g. Scene_Map)
     'camelcase': 'off',
+    // Since we all has RPG Maker, we probably not using Unix, so enforce CRLF
+    'linebreak-style': ['error', 'windows'],
     'no-unused-vars': 'warn',
   },
 };
