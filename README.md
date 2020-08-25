@@ -64,8 +64,6 @@ pnpm run lint --filter plugin1
 
 ## License
 
-## License
-
 Copyright (c) 2020 [Ivan Xu](https://github.com/xuyanwen2012)
 
 Released under the [MIT](https://github.com/xuyanwen2012/rmmz-plugins-starter/blob/master/LICENSE) License.
