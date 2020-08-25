@@ -16,7 +16,7 @@
   "scripts": {
     "lint": "pnpm run lint:json && pnpm run lint:package && pnpm run lint:js",
     "lint:js": "eslint --fix --cache shared --ext .js",
-    "lint:json": "prettier --write rmmz_globals.json .prettierc.json pnpm-workspace.yaml",
+    "lint:json": "prettier --write .rmmz_globals.json .prettierc.json pnpm-workspace.yaml",
     "lint:package": "prettier --write package.json --plugin=prettier-plugin-package",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

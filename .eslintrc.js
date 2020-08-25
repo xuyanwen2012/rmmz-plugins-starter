@@ -1,7 +1,7 @@
 /**
  * @type {string[]}
  */
-const globals = require('./rmmz_globals.json');
+const globals = require('.rmmz_globals.json');
 
 module.exports = {
   extends: [
