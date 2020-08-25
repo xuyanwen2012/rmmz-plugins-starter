@@ -1,13 +1,12 @@
 # rmmz-plugins-starter
 
 This repository is a Monorepo that allows easy development of for RPG Maker MV/MZ plugins.
-It serves as a starting point for plugin developer who loves to write RM plugins in ES6 and modules, 
-especially useful for developer who produce many plugins. 
+It serves as a starting point for plugin developer who loves to write RM plugins in ES6 and modules,
+especially useful for developer who produce many plugins.
 
-
-- The template uses [Rollup.js](https://github.com/rollup/rollup) as the module bundler. 
-- The template uses [pnpm](https://github.com/pnpm/pnpm) to save space on your disk. 
-- The template follows the [Google style guide](https://google.github.io/styleguide/jsguide.html). 
+- The template uses [Rollup.js](https://github.com/rollup/rollup) as the module bundler.
+- The template uses [pnpm](https://github.com/pnpm/pnpm) to save space on your disk.
+- The template follows the [Google style guide](https://google.github.io/styleguide/jsguide.html).
 
 We are hoping to intergrate this setup with TypeScript soon.
 
@@ -26,28 +25,28 @@ plugins
 │   │   │   index.js       // The entry point of your plugin
 │   │   │   others.js
 │   │   │   ...
-│   │   
+│   │
 │   └───dist
-│       │  Plugin1.js      // The generated ready-to-use plugin, simply copy it to your RPG Maker Plugin folder
+│       │  Plugin1.js      // The generated ready-to-use plugin,
+│       │                  // simply copy it to your RPG Maker Plugin folder
 │
 └───plugin2
 │   │    ...
-│   
+│
 │   ...
 ```
 
-
 ## Installation and Usage
 
-We recomment using [pnpm](https://github.com/pnpm/pnpm) since this is a Monorepo. 
-Alternately you can still use `npm`, which then involves extra manual work. 
+We recomment using [pnpm](https://github.com/pnpm/pnpm) since this is a Monorepo.
+Alternately you can still use `npm`, which then involves extra manual work.
 Just use pnpm in place of npm/Yarn. E.g., install dependencies via:
 
 ```
 pnpm install
 ```
 
-To compile a plugin you wrote. For example `plugin1`, 
+To compile a plugin you wrote. For example `plugin1`,
 where plugin1 is the package name specified in 'plugins/plugin1/package.json'
 
 ```
@@ -67,5 +66,3 @@ pnpm run lint --filter plugin1
 Copyright (c) 2020 [Ivan Xu](https://github.com/xuyanwen2012)
 
 Released under the [MIT](https://github.com/xuyanwen2012/rmmz-plugins-starter/blob/master/LICENSE) License.
-
-
