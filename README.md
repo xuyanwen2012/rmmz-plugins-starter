@@ -30,12 +30,12 @@ rmmz_plugins-starter
 │
 └───dist
 │   │   Plugin1.js      // The generated ready-to-use plugins,
-│   │   Plugin2.js      // simply copy temp to your RPG Maker Plugin folder
+│   │   Plugin2.js      // simply copy them to your RPG Maker Plugin folder
 │   │   ...  
 │
 └───plugins
 │   │
-│   └───plugin1
+│   └───Plugin1
 │   │   │   _header.txt        // Plugin parameters goes here etc.
 │   │   │   package.json       // Should specify the plugin's name here, used by the pnpm.
 │   │   │   rollup.config.js   
