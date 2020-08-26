@@ -4,7 +4,7 @@
 
 /*:
  * @target MZ
- * @plugindesc Prototype
+ * @plugindesc A plugin description here
  * @author Author Name
  *
  * @help Plugin1.js - v1.0.0
@@ -35,6 +35,6 @@
         }
     }
     const btm = new TestClass(100, 200);
-    console.log(btm.clear());
+    console.log(btm.clear);
 
 }());

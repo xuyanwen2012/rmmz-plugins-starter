@@ -10,4 +10,4 @@ class TestClass extends Bitmap {
 
 const btm = new TestClass(100, 200);
 
-console.log(btm.clear());
+console.log(btm.clear);

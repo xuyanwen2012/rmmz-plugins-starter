@@ -1,6 +1,6 @@
 /*:
  * @target MZ
- * @plugindesc Prototype
+ * @plugindesc A plugin description here
  * @author Author Name
  *
  * @help Plugin1.js - v1.0.0
